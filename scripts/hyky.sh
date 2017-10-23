@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# platform -> iOS,android,laravel,vuejs,sketch
-platform=sketch
+# platform -> ios,android,php,js,sketch
+platform=android
 
 # sorce type -> csv (just csv for now)
 src_type=csv
