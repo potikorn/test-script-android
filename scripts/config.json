@@ -1,0 +1,51 @@
+{
+    "ios": {
+        "path": "{name}.lproj/Localizable.strings",
+        "header": "//{header}\n",
+        "comment": "\n/* {comment} */\n/* {detail} */",
+        "row": "//{detail}\n\"{key}\" = \"{value}\";",
+        "name": {
+            "en": "Base",
+            "th": "th-TH"
+        }
+    },
+    "sketch": {
+        "path": "locale/{name}/text.json",
+        "header": "[{",
+        "footer": "}]",
+        "comment": "",
+        "row": "\"{key}\" : \"{value}\"",
+        "joinby": ","
+    },
+    "android": {
+        "header": [
+            "<resources>",
+            "\t<!-- CONFIGURATION -->",
+            "\t<string name=\"app_name\" translatable=\"false\">{header}</string>"
+        ],
+        "footer": "</resources>",
+        "comment": "\n<!-- {comment} -->",
+        "row": "<string name=\"{key}\"><![CDATA[{value}]]></string>",
+        "path": "app/src/main/res/{name}/strings.xml",
+        "name": {
+            "en": "values",
+            "*": "values-{name}"
+        }
+    },
+    "php": {
+        "path": "lang/{name}/strings.php",
+        "header": "<?php\n\nreturn [\n\n/*\t{header}\n*/\n",
+        "comment": "\n//{comment}\n",
+        "row": "\t{key} => '{value}'",
+        "joinby": ",",
+        "footer": "\n];"
+    },
+    "js": {
+        "path": "locale/{name}.js",
+        "header": "//{header}\nmodule.exports = {",
+        "comment": "\n//{comment}",
+        "row": "\t{key} : '{value}'",
+        "joinby": ",",
+        "footer": "\n}"
+    }
+}
