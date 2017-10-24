@@ -1,0 +1,18 @@
+<resources>
+	<!-- CONFIGURATION -->
+	<string name="app_name" translatable="false">foodplace</string>
+
+<!-- General -->
+<string name="serving"><![CDATA[Serving]]></string>
+<string name="product_name"><![CDATA[Züricher Kalbgeschnetzeltes mit Bandnudeln YES]]></string>
+<string name="ratings"><![CDATA[Bewertungen]]></string>
+<string name="product_detail"><![CDATA[Produkt Zutaten]]></string>
+<string name="ingredients"><![CDATA[Nährwerte]]></string>
+<string name="allergy"><![CDATA[Allergene]]></string>
+<string name="allergy_1"><![CDATA[enthält Alkohol]]></string>
+<string name="allergy_2"><![CDATA[enthält Gluten]]></string>
+<string name="allergy_3"><![CDATA[würzige Knoblauchnote]]></string>
+<string name="allergy_4"><![CDATA[enthält Fisch]]></string>
+<string name="allergy_5"><![CDATA[enthält Laktose]]></string>
+<string name="hello"><![CDATA[Hallo Welt]]></string>
+</resources>

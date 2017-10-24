@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Test Script</string>
+	<!-- CONFIGURATION -->
+	<string name="app_name" translatable="false">foodplace</string>
+
+<!-- General -->
+<string name="serving"><![CDATA[Serving]]></string>
+<string name="product_name"><![CDATA[Veal slices of veal with ribbon noodles YES]]></string>
+<string name="ratings"><![CDATA[Ratings]]></string>
+<string name="product_detail"><![CDATA[Product Detail]]></string>
+<string name="ingredients"><![CDATA[Ingredients]]></string>
+<string name="allergy"><![CDATA[Allergy]]></string>
+<string name="allergy_1"><![CDATA[Contains Alcohol]]></string>
+<string name="allergy_2"><![CDATA[Contains Gluten]]></string>
+<string name="allergy_3"><![CDATA[spicy garlic]]></string>
+<string name="allergy_4"><![CDATA[Contains Fish]]></string>
+<string name="allergy_5"><![CDATA[Contains Lactose]]></string>
+<string name="hello"><![CDATA[Hello World the best]]></string>
 </resources>
