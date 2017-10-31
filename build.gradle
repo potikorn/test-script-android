@@ -17,8 +17,8 @@ buildscript {
 allprojects {
     // do this task after preBuild loaded
     afterEvaluate {
-        for(def task in it.tasks)
-            if(task != rootProject.tasks.generateLocaleFile)
+        for (def task in it.tasks)
+            if (task != rootProject.tasks.generateLocaleFile)
                 task.finalizedBy rootProject.tasks.generateLocaleFile
     }
     repositories {
